@@ -31,6 +31,8 @@ public struct EmptyStateFormat {
     /// Button width, nil = auto
     public var buttonWidth: CGFloat? = nil
     
+    public var buttonHeight: CGFloat? = nil
+    
     /// Button top margin
     public var buttonTopMargin: CGFloat = 20
     

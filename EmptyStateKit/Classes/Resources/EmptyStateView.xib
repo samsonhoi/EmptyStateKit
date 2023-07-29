@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -40,7 +38,7 @@
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
-                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0r6-no-wwh">
+                        <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0r6-no-wwh">
                             <rect key="frame" x="144.5" y="276" width="85" height="40"/>
                             <color key="backgroundColor" red="1" green="0.098039215686274508" blue="0.29803921568627451" alpha="1" colorSpace="calibratedRGB"/>
                             <constraints>
@@ -110,6 +108,7 @@
                 <outlet property="messageViewTopConstraint" destination="Tju-cH-mib" id="WkS-oB-aak"/>
                 <outlet property="primaryButton" destination="0r6-no-wwh" id="8PV-dj-g56"/>
                 <outlet property="primaryButtonCenterXConstraint" destination="MUa-Tn-yuc" id="NiV-xV-oZa"/>
+                <outlet property="primaryButtonHeightConstraint" destination="OdJ-Bw-0Rt" id="bPE-cG-dYF"/>
                 <outlet property="primaryButtonLeftConstraint" destination="vxC-fj-pk6" id="HsE-Tc-3dj"/>
                 <outlet property="primaryButtonRightConstraint" destination="02j-HF-o2e" id="8Fp-jy-GII"/>
                 <outlet property="primaryButtonTop2Constraint" destination="Nfb-NG-Mq2" id="72d-Qq-Bdn"/>

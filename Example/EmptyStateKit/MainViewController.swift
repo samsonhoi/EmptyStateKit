@@ -32,7 +32,8 @@ class MainViewController: UIViewController {
         format.titleAttributes = [.font: UIFont(name: "AvenirNext-DemiBold", size: 26)!, .foregroundColor: UIColor.white]
         format.descriptionAttributes = [.font: UIFont(name: "Avenir Next", size: 14)!, .foregroundColor: UIColor.white]
         format.gradientColor = ("3854A5".hexColor, "2A1A6C".hexColor)
-        
+        format.buttonWidth = 200
+//        format.buttonHeight = 50
         view.emptyState.format = format
         view.emptyState.delegate = self
         view.emptyState.dataSource = self

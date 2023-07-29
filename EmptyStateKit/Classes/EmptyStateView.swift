@@ -19,6 +19,7 @@ class EmptyStateView: NibView {
     
     // Constraints
     @IBOutlet var primaryButtonWidthConstraint: NSLayoutConstraint!
+    @IBOutlet var primaryButtonHeightConstraint: NSLayoutConstraint!
     @IBOutlet var messageViewCenterYConstraint: NSLayoutConstraint!
     @IBOutlet var messageViewBottomConstraint: NSLayoutConstraint!
     @IBOutlet var messageViewTopConstraint: NSLayoutConstraint!
@@ -135,6 +136,13 @@ extension EmptyStateView {
             primaryButtonWidthConstraint.constant = buttonWidth
         } else {
             primaryButtonWidthConstraint.isActive = false
+        }
+        
+        if let buttonHeight = format.buttonHeight {
+            primaryButtonHeightConstraint.isActive = true
+            primaryButtonHeightConstraint.constant = buttonHeight
+        } else {
+            primaryButtonHeightConstraint.isActive = false
         }
         
         // Message format
